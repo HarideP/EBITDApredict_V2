@@ -1,0 +1,545 @@
+{
+    "company_code": "MD",
+    "financial_data": [
+        {
+            "date": "2010-09-30",
+            "Year": 2,
+            "ebitda": 87.695,
+            "operating expenses": 26968400.0,
+            "net income": 61.27,
+            "ebit": 8137400.0,
+            "operating profit": 81.374,
+            "pre tax-profit": 81.331
+        },
+        {
+            "date": "2010-12-31",
+            "Year": 3,
+            "ebitda": 91.729,
+            "operating expenses": 282594000.0,
+            "net income": 53.8,
+            "ebit": 85886000.0,
+            "operating profit": 85.886,
+            "pre tax-profit": 85.329
+        },
+        {
+            "date": "2011-03-31",
+            "Year": 4,
+            "ebitda": 81.501,
+            "operating expenses": 306563000.0,
+            "net income": 45.456,
+            "ebit": 75720000.0,
+            "operating profit": 75.72,
+            "pre tax-profit": 75.134
+        },
+        {
+            "date": "2011-06-30",
+            "Year": 5,
+            "ebitda": 99.155,
+            "operating expenses": 300279000.0,
+            "net income": 55.941,
+            "ebit": 93123000.0,
+            "operating profit": 93.123,
+            "pre tax-profit": 92.464
+        },
+        {
+            "date": "2011-09-30",
+            "Year": 6,
+            "ebitda": 101.25,
+            "operating expenses": 312628000.0,
+            "net income": 58.241,
+            "ebit": 95037000.0,
+            "operating profit": 95.037,
+            "pre tax-profit": 94.318
+        },
+        {
+            "date": "2011-12-31",
+            "Year": 7,
+            "ebitda": 98.775,
+            "operating expenses": 313389000.0,
+            "net income": 58.359,
+            "ebit": 91509000.0,
+            "operating profit": 91.509,
+            "pre tax-profit": 91.329
+        },
+        {
+            "date": "2012-03-31",
+            "Year": 8,
+            "ebitda": 86.501,
+            "operating expenses": 343228000.0,
+            "net income": 48.35,
+            "ebit": 79388000.0,
+            "operating profit": 79.388,
+            "pre tax-profit": 79.262
+        },
+        {
+            "date": "2012-06-30",
+            "Year": 9,
+            "ebitda": 107.423,
+            "operating expenses": 349794000.0,
+            "net income": 60.544,
+            "ebit": 99736000.0,
+            "operating profit": 99.736,
+            "pre tax-profit": 99.253
+        },
+        {
+            "date": "2012-09-30",
+            "Year": 10,
+            "ebitda": 115.298,
+            "operating expenses": 365761000.0,
+            "net income": 65.91,
+            "ebit": 107373000.0,
+            "operating profit": 107.373,
+            "pre tax-profit": 107.171
+        },
+        {
+            "date": "2012-12-31",
+            "Year": 11,
+            "ebitda": 111.114,
+            "operating expenses": 368309000.0,
+            "net income": 66.103,
+            "ebit": 103023000.0,
+            "operating profit": 103.023,
+            "pre tax-profit": 102.485
+        },
+        {
+            "date": "2013-03-31",
+            "Year": 12,
+            "ebitda": 100.696,
+            "operating expenses": 411163000.0,
+            "net income": 55.367,
+            "ebit": 91552000.0,
+            "operating profit": 91.552,
+            "pre tax-profit": 90.765
+        },
+        {
+            "date": "2013-06-30",
+            "Year": 13,
+            "ebitda": 123.241,
+            "operating expenses": 415809000.0,
+            "net income": 69.218,
+            "ebit": 113371000.0,
+            "operating profit": 113.371,
+            "pre tax-profit": 112.094
+        },
+        {
+            "date": "2013-09-30",
+            "Year": 14,
+            "ebitda": 133.752,
+            "operating expenses": 431439000.0,
+            "net income": 76.958,
+            "ebit": 123291000.0,
+            "operating profit": 123.291,
+            "pre tax-profit": 122.156
+        },
+        {
+            "date": "2013-12-31",
+            "Year": 15,
+            "ebitda": 134.408,
+            "operating expenses": 443470000.0,
+            "net income": 78.974,
+            "ebit": 123917000.0,
+            "operating profit": 123.917,
+            "pre tax-profit": 123.397
+        },
+        {
+            "date": "2014-03-31",
+            "Year": 16,
+            "ebitda": 114.469,
+            "operating expenses": 462241000.0,
+            "net income": 63.66,
+            "ebit": 104098000.0,
+            "operating profit": 104.098,
+            "pre tax-profit": 104.361
+        },
+        {
+            "date": "2014-06-30",
+            "Year": 17,
+            "ebitda": 140.033,
+            "operating expenses": 465872000.0,
+            "net income": 79.016,
+            "ebit": 129672000.0,
+            "operating profit": 129.672,
+            "pre tax-profit": 127.969
+        },
+        {
+            "date": "2014-09-30",
+            "Year": 18,
+            "ebitda": 149.499,
+            "operating expenses": 488363000.0,
+            "net income": 86.207,
+            "ebit": 138143000.0,
+            "operating profit": 138.143,
+            "pre tax-profit": 137.412
+        },
+        {
+            "date": "2014-12-31",
+            "Year": 19,
+            "ebitda": 154.99,
+            "operating expenses": 509437000.0,
+            "net income": 88.399,
+            "ebit": 141087000.0,
+            "operating profit": 141.087,
+            "pre tax-profit": 138.874
+        },
+        {
+            "date": "2015-03-31",
+            "Year": 20,
+            "ebitda": 128.433,
+            "operating expenses": 524574000.0,
+            "net income": 68.707,
+            "ebit": 114821000.0,
+            "operating profit": 114.821,
+            "pre tax-profit": 112.517
+        },
+        {
+            "date": "2015-06-30",
+            "Year": 21,
+            "ebitda": 156.506,
+            "operating expenses": 535631000.0,
+            "net income": 84.13,
+            "ebit": 140957000.0,
+            "operating profit": 140.957,
+            "pre tax-profit": 136.937
+        },
+        {
+            "date": "2015-09-30",
+            "Year": 22,
+            "ebitda": 168.048,
+            "operating expenses": 571143000.0,
+            "net income": 90.781,
+            "ebit": 151130000.0,
+            "operating profit": 151.13,
+            "pre tax-profit": 165.301
+        },
+        {
+            "date": "2015-12-31",
+            "Year": 23,
+            "ebitda": 169.109,
+            "operating expenses": 590780000.0,
+            "net income": 92.702,
+            "ebit": 150960000.0,
+            "operating profit": 150.96,
+            "pre tax-profit": 163.618
+        },
+        {
+            "date": "2016-03-31",
+            "Year": 24,
+            "ebitda": 143.817,
+            "operating expenses": 628391000.0,
+            "net income": 67.899,
+            "ebit": 124233000.0,
+            "operating profit": 124.233,
+            "pre tax-profit": 133.218
+        },
+        {
+            "date": "2016-06-30",
+            "Year": 25,
+            "ebitda": 168.026,
+            "operating expenses": 623974000.0,
+            "net income": 82.427,
+            "ebit": 147785000.0,
+            "operating profit": 147.785,
+            "pre tax-profit": 147.313
+        },
+        {
+            "date": "2016-09-30",
+            "Year": 26,
+            "ebitda": 181.076,
+            "operating expenses": 671115000.0,
+            "net income": 96.509,
+            "ebit": 156891000.0,
+            "operating profit": 156.891,
+            "pre tax-profit": 165.851
+        },
+        {
+            "date": "2016-12-31",
+            "Year": 27,
+            "ebitda": 168.032,
+            "operating expenses": 687992000.0,
+            "net income": 78.079,
+            "ebit": 142778000.0,
+            "operating profit": 142.778,
+            "pre tax-profit": 143.465
+        },
+        {
+            "date": "2017-03-31",
+            "Year": 28,
+            "ebitda": 131.651,
+            "operating expenses": 729560000.0,
+            "net income": 54.691,
+            "ebit": 106037000.0,
+            "operating profit": 106.037,
+            "pre tax-profit": 114.741
+        },
+        {
+            "date": "2017-06-30",
+            "Year": 29,
+            "ebitda": 147.639,
+            "operating expenses": 721040000.0,
+            "net income": 63.698,
+            "ebit": 121904000.0,
+            "operating profit": 121.904,
+            "pre tax-profit": 129.105
+        },
+        {
+            "date": "2017-09-30",
+            "Year": 30,
+            "ebitda": 151.548,
+            "operating expenses": 742519000.0,
+            "net income": 65.88,
+            "ebit": 126432000.0,
+            "operating profit": 126.432,
+            "pre tax-profit": 132.422
+        },
+        {
+            "date": "2017-12-31",
+            "Year": 31,
+            "ebitda": 102.91,
+            "operating expenses": 605380000.0,
+            "net income": 136.103,
+            "ebit": 100519000.0,
+            "operating profit": 100.519,
+            "pre tax-profit": 132.708
+        },
+        {
+            "date": "2018-03-31",
+            "Year": 32,
+            "ebitda": 119.577,
+            "operating expenses": 752965000.0,
+            "net income": 63.428,
+            "ebit": 99663000.0,
+            "operating profit": 99.663,
+            "pre tax-profit": 87.487
+        },
+        {
+            "date": "2018-06-30",
+            "Year": 33,
+            "ebitda": 142.674,
+            "operating expenses": 742594000.0,
+            "net income": 79.412,
+            "ebit": 122393000.0,
+            "operating profit": 122.393,
+            "pre tax-profit": 140.487
+        },
+        {
+            "date": "2018-09-30",
+            "Year": 34,
+            "ebitda": 126.413,
+            "operating expenses": 744551000.0,
+            "net income": 65.575,
+            "ebit": 104208000.0,
+            "operating profit": 104.208,
+            "pre tax-profit": 118.5
+        },
+        {
+            "date": "2018-12-31",
+            "Year": 35,
+            "ebitda": 126.986,
+            "operating expenses": 782883000.0,
+            "net income": 60.214,
+            "ebit": -77876000.0,
+            "operating profit": 105.553,
+            "pre tax-profit": 109.561
+        },
+        {
+            "date": "2019-03-31",
+            "Year": 36,
+            "ebitda": 74.977,
+            "operating expenses": 490507000.0,
+            "net income": -242.872,
+            "ebit": 54944000.0,
+            "operating profit": 52.505,
+            "pre tax-profit": 77.922
+        },
+        {
+            "date": "2019-06-30",
+            "Year": 37,
+            "ebitda": 91.032,
+            "operating expenses": 501850000.0,
+            "net income": -8.245,
+            "ebit": 77253000.0,
+            "operating profit": 59.387,
+            "pre tax-profit": 102.561
+        },
+        {
+            "date": "2019-09-30",
+            "Year": 38,
+            "ebitda": 129.06,
+            "operating expenses": 197190000.0,
+            "net income": -1255.916,
+            "ebit": 31440000.0,
+            "operating profit": 19.72,
+            "pre tax-profit": 103.407
+        },
+        {
+            "date": "2019-12-31",
+            "Year": 39,
+            "ebitda": 76.11,
+            "operating expenses": 418456000.0,
+            "net income": 9.331,
+            "ebit": 69009000.0,
+            "operating profit": 40.144,
+            "pre tax-profit": 102.888
+        },
+        {
+            "date": "2020-03-31",
+            "Year": 40,
+            "ebitda": 49.43,
+            "operating expenses": 545864000.0,
+            "net income": -18.712,
+            "ebit": 35031000.0,
+            "operating profit": 15.987,
+            "pre tax-profit": 35.89
+        },
+        {
+            "date": "2020-06-30",
+            "Year": 41,
+            "ebitda": 60.838,
+            "operating expenses": 474295000.0,
+            "net income": -672.436,
+            "ebit": 36892000.0,
+            "operating profit": 34.908,
+            "pre tax-profit": 35.218
+        },
+        {
+            "date": "2020-09-30",
+            "Year": 42,
+            "ebitda": 61.945,
+            "operating expenses": 440176000.0,
+            "net income": -41.044,
+            "ebit": 54750000.0,
+            "operating profit": 20.459,
+            "pre tax-profit": 45.249
+        },
+        {
+            "date": "2020-12-31",
+            "Year": 43,
+            "ebitda": 52.952,
+            "operating expenses": 384325000.0,
+            "net income": -64.296,
+            "ebit": 45260000.0,
+            "operating profit": 32.305,
+            "pre tax-profit": 24.249
+        },
+        {
+            "date": "2021-03-31",
+            "Year": 44,
+            "ebitda": 39.013,
+            "operating expenses": 435181000.0,
+            "net income": 17.642,
+            "ebit": 30982000.0,
+            "operating profit": 11.572,
+            "pre tax-profit": 27.048
+        },
+        {
+            "date": "2021-06-30",
+            "Year": 45,
+            "ebitda": 60.774,
+            "operating expenses": 422943000.0,
+            "net income": 35.011,
+            "ebit": 52668000.0,
+            "operating profit": 50.016,
+            "pre tax-profit": 37.89
+        },
+        {
+            "date": "2021-09-30",
+            "Year": 46,
+            "ebitda": 71.176,
+            "operating expenses": 434156000.0,
+            "net income": 30.795,
+            "ebit": 63025000.0,
+            "operating profit": 58.793,
+            "pre tax-profit": 52.478
+        },
+        {
+            "date": "2021-12-31",
+            "Year": 47,
+            "ebitda": 78.922,
+            "operating expenses": 430525000.0,
+            "net income": 47.516,
+            "ebit": 71063000.0,
+            "operating profit": 68.005,
+            "pre tax-profit": 60.604
+        },
+        {
+            "date": "2022-03-31",
+            "Year": 48,
+            "ebitda": 49.298,
+            "operating expenses": 500137000.0,
+            "net income": -21.188,
+            "ebit": 40529000.0,
+            "operating profit": -17.908,
+            "pre tax-profit": 20.429
+        },
+        {
+            "date": "2022-06-30",
+            "Year": 49,
+            "ebitda": 64.268,
+            "operating expenses": 435878000.0,
+            "net income": 27.136,
+            "ebit": 55493000.0,
+            "operating profit": 50.155,
+            "pre tax-profit": 54.872
+        },
+        {
+            "date": "2022-09-30",
+            "Year": 50,
+            "ebitda": 57.32,
+            "operating expenses": 442528000.0,
+            "net income": 30.728,
+            "ebit": 48364000.0,
+            "operating profit": 47.387,
+            "pre tax-profit": 44.344
+        },
+        {
+            "date": "2022-12-31",
+            "Year": 51,
+            "ebitda": 64.75,
+            "operating expenses": 477806000.0,
+            "net income": 29.659,
+            "ebit": 55614000.0,
+            "operating profit": 36.038,
+            "pre tax-profit": 44.344
+        },
+        {
+            "date": "2023-03-31",
+            "Year": 52,
+            "ebitda": 38.994,
+            "operating expenses": 460967000.0,
+            "net income": 14.206,
+            "ebit": 30041000.0,
+            "operating profit": 30.041,
+            "pre tax-profit": 44.344
+        },
+        {
+            "date": "2023-06-30",
+            "Year": 53,
+            "ebitda": 57.443,
+            "operating expenses": 452079000.0,
+            "net income": 28.282,
+            "ebit": 48498000.0,
+            "operating profit": 48.498,
+            "pre tax-profit": 42.824
+        },
+        {
+            "date": "2023-09-30",
+            "Year": 54,
+            "ebitda": 49.483,
+            "operating expenses": 466340000.0,
+            "net income": 21.391,
+            "ebit": 40272000.0,
+            "operating profit": 40.272,
+            "pre tax-profit": 34.698
+        },
+        {
+            "date": "2023-12-31",
+            "Year": 55,
+            "ebitda": 48.103,
+            "operating expenses": 627933000.0,
+            "net income": -124.287,
+            "ebit": 39041000.0,
+            "operating profit": -131.49,
+            "pre tax-profit": -7.174
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "company_code": "GEHC",
+    "financial_data": [
+        {
+            "date": "2021-09-30",
+            "Year": 1,
+            "ebitda": 739000000.0,
+            "operating expenses": 3652000000.0,
+            "cost of-sales": 2538000000.0,
+            "net income": 514000000.0,
+            "gross profit-on-sales": 1766000000.0,
+            "ebit": 584000000.0,
+            "operating profit": 652000000.0,
+            "pre tax-profit": 528000000.0
+        },
+        {
+            "date": "2021-12-31",
+            "Year": 2,
+            "ebitda": 853000000.0,
+            "operating expenses": 3862000000.0,
+            "cost of-sales": 2727000000.0,
+            "net income": 564000000.0,
+            "gross profit-on-sales": 1862000000.0,
+            "ebit": 699000000.0,
+            "operating profit": 727000000.0,
+            "pre tax-profit": 528000000.0
+        },
+        {
+            "date": "2022-03-31",
+            "Year": 3,
+            "ebitda": 649000000.0,
+            "operating expenses": 3834000000.0,
+            "cost of-sales": 2665000000.0,
+            "net income": 389000000.0,
+            "gross profit-on-sales": 1678000000.0,
+            "ebit": 490000000.0,
+            "operating profit": 509000000.0,
+            "pre tax-profit": 528000000.0
+        },
+        {
+            "date": "2022-06-30",
+            "Year": 4,
+            "ebitda": 732000000.0,
+            "operating expenses": 3853000000.0,
+            "cost of-sales": 2688000000.0,
+            "net income": 485000000.0,
+            "gross profit-on-sales": 1796000000.0,
+            "ebit": 676000000.0,
+            "operating profit": 631000000.0,
+            "pre tax-profit": 528000000.0
+        },
+        {
+            "date": "2022-09-30",
+            "Year": 5,
+            "ebitda": 725000000.0,
+            "operating expenses": 3971000000.0,
+            "cost of-sales": 2803000000.0,
+            "net income": 488000000.0,
+            "gross profit-on-sales": 1773000000.0,
+            "ebit": 565000000.0,
+            "operating profit": 605000000.0,
+            "pre tax-profit": 528000000.0
+        },
+        {
+            "date": "2022-12-31",
+            "Year": 6,
+            "ebitda": 927000000.0,
+            "operating expenses": 4161000000.0,
+            "cost of-sales": 3006000000.0,
+            "net income": 554000000.0,
+            "gross profit-on-sales": 1932000000.0,
+            "ebit": 770000000.0,
+            "operating profit": 777000000.0,
+            "pre tax-profit": 528000000.0
+        },
+        {
+            "date": "2023-03-31",
+            "Year": 7,
+            "ebitda": 749000000.0,
+            "operating expenses": 4148000000.0,
+            "cost of-sales": 2816000000.0,
+            "net income": 372000000.0,
+            "gross profit-on-sales": 1891000000.0,
+            "ebit": 592000000.0,
+            "operating profit": 559000000.0,
+            "pre tax-profit": 528000000.0
+        },
+        {
+            "date": "2023-06-30",
+            "Year": 8,
+            "ebitda": 796000000.0,
+            "operating expenses": 4247000000.0,
+            "cost of-sales": 2877000000.0,
+            "net income": 418000000.0,
+            "gross profit-on-sales": 1940000000.0,
+            "ebit": 640000000.0,
+            "operating profit": 570000000.0,
+            "pre tax-profit": 574000000.0
+        },
+        {
+            "date": "2023-09-30",
+            "Year": 9,
+            "ebitda": 804000000.0,
+            "operating expenses": 4205000000.0,
+            "cost of-sales": 2887000000.0,
+            "net income": 375000000.0,
+            "gross profit-on-sales": 1935000000.0,
+            "ebit": 651000000.0,
+            "operating profit": 617000000.0,
+            "pre tax-profit": 606000000.0
+        },
+        {
+            "date": "2023-12-31",
+            "Year": 10,
+            "ebitda": 948000000.0,
+            "operating expenses": 4517000000.0,
+            "cost of-sales": 3050000000.0,
+            "net income": 403000000.0,
+            "gross profit-on-sales": 2156000000.0,
+            "ebit": 804000000.0,
+            "operating profit": 689000000.0,
+            "pre tax-profit": 706000000.0
+        },
+        {
+            "date": "2024-03-31",
+            "Year": 11,
+            "ebitda": 788000000.0,
+            "operating expenses": 4110000000.0,
+            "cost of-sales": 2749000000.0,
+            "net income": 374000000.0,
+            "gross profit-on-sales": 1901000000.0,
+            "ebit": 681000000.0,
+            "operating profit": 540000000.0,
+            "pre tax-profit": 561000000.0
+        },
+        {
+            "date": "2024-06-30",
+            "Year": 12,
+            "ebitda": 858000000.0,
+            "operating expenses": 4126000000.0,
+            "cost of-sales": 2837000000.0,
+            "net income": 428000000.0,
+            "gross profit-on-sales": 2002000000.0,
+            "ebit": 709000000.0,
+            "operating profit": 713000000.0,
+            "pre tax-profit": 578000000.0
+        },
+        {
+            "date": "2024-09-30",
+            "Year": 13,
+            "ebitda": 931000000.0,
+            "operating expenses": 1350000000.0,
+            "cost of-sales": 4863000000.0,
+            "net income": 470000000.0,
+            "gross profit-on-sales": 2026000000.0,
+            "ebit": 795000000.0,
+            "operating profit": 676000000.0,
+            "pre tax-profit": 658000000.0
+        }
+    ]
+}
