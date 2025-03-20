@@ -1,0 +1,9 @@
+Model,Average MAPE
+ARIMA_20_4_results,41.85
+ARIMA_20_6_results,47.54
+SARIMA_20_4_results,42.74
+SARIMA_20_6_results,48.8
+GRU_20_4_results,52.33
+GRU_20_6_results,60.79
+LSTM_20_4_results,50.55
+LSTM_20_6_results,57.36
