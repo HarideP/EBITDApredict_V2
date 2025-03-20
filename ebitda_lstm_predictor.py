@@ -17,7 +17,9 @@ torch.manual_seed(42)
 np.random.seed(42)
 # 设置全局变量控制序列长度和预测长度
 SEQ_LENGTH = 20  # 输入序列长度
-PRED_LENGTH = 12  # 预测长度
+PRED_LENGTH = 6  # 预测长度
+# 设置全局变量控制使用的模型类型：'LSTM'或'GRU'
+MODEL_TYPE = 'GRU'  # 可选值: 'LSTM', 'GRU'
 
 
 
@@ -50,6 +52,27 @@ class LSTMModel(nn.Module):
         
         # 前向传播LSTM
         out, _ = self.lstm(x, (h0, c0))
+        
+        # 解码最后一个时间步的隐藏状态
+        out = self.fc(out[:, -1, :])
+        return out
+
+# 定义GRU模型
+class GRUModel(nn.Module):
+    def __init__(self, input_size, hidden_size, num_layers, output_size, dropout=0.2):
+        super(GRUModel, self).__init__()
+        self.hidden_size = hidden_size
+        self.num_layers = num_layers
+        
+        self.gru = nn.GRU(input_size, hidden_size, num_layers, batch_first=True, dropout=dropout)
+        self.fc = nn.Linear(hidden_size, output_size)
+    
+    def forward(self, x):
+        # 初始化隐藏状态
+        h0 = torch.zeros(self.num_layers, x.size(0), self.hidden_size).to(x.device)
+        
+        # 前向传播GRU
+        out, _ = self.gru(x, h0)
         
         # 解码最后一个时间步的隐藏状态
         out = self.fc(out[:, -1, :])
@@ -179,7 +202,7 @@ def evaluate_model(model, X_test, y_test, scaler, device):
     # 计算评估指标
     mse = mean_squared_error(y_test_rescaled, y_pred_rescaled)
     rmse = math.sqrt(mse)
-    mape = np.mean(np.abs((y_test_rescaled - y_pred_rescaled) / np.abs(y_test_rescaled))) * 100
+    mape = np.mean(np.abs((y_test_rescaled - y_pred_rescaled) / y_test_rescaled)) * 100
     
     results = {
         'predictions': y_pred_rescaled.tolist(),
@@ -243,7 +266,12 @@ def main():
         output_size = y_train.shape[1]  # 预测未来4个季度的EBITDA
         
         # 初始化模型
-        model = LSTMModel(input_size, hidden_size, num_layers, output_size).to(device)
+        if MODEL_TYPE == 'LSTM':
+            model = LSTMModel(input_size, hidden_size, num_layers, output_size).to(device)
+            model_name = 'LSTM'
+        else:  # MODEL_TYPE == 'GRU'
+            model = GRUModel(input_size, hidden_size, num_layers, output_size).to(device)
+            model_name = 'GRU'
         
         # 定义损失函数和优化器
         criterion = nn.MSELoss()
@@ -262,7 +290,7 @@ def main():
         print(f"MAPE: {results['mape']:.2f}%")
         
         # 保存预测结果
-        save_results(results, str(predictions_dir / f'{company_name}_prediction_results.json'))
+        save_results(results, str(predictions_dir / f'{company_name}_{model_name}_prediction_results.json'))
         
         # 添加到汇总结果
         summary_results.append({
@@ -274,8 +302,8 @@ def main():
     
     # 保存汇总结果
     summary_df = pd.DataFrame(summary_results)
-    summary_df.to_csv(str(results_dir / 'summary_results.csv'), index=False)
-    print("\n所有公司处理完成，汇总结果已保存到 results/summary_results.csv")
+    summary_df.to_csv(str(results_dir / f'{MODEL_TYPE}_summary_results.csv'), index=False)
+    print(f"\n所有公司处理完成，汇总结果已保存到 results/{MODEL_TYPE}_summary_results.csv")
 
 if __name__ == "__main__":
     main()
